@@ -1,0 +1,19 @@
+POSTGRES DATABASE:
+    database name = postgres
+    username = postgres
+    socket = /var/run/postgresql
+    port = 5432
+
+    You are connected to database "postgres" as user "postgres" via socket in "/var/run/postgresql"
+    at port "5432".
+
+------------------------------------------------------------------------------------------------------
+
+alex@alexPc:~$ sudo su - postgres
+postgres@alexPc:~$ psql
+psql (13.2 (Ubuntu 13.2-1.pgdg20.04+1))
+Type "help" for help.
+
+postgres=# conninfo
+
+-------------------------------------------------------------------------------------------------------

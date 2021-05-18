@@ -1,0 +1,14 @@
+go to maven and then
+click clean
+(target folder will vanish)
+click install
+will run all the tests and create the jar file inside target folder
+(target folder will be created)
+
+-----------------------------------------------------------------------------------------------------
+
+for running the jar file:
+
+java -jar <JAR_FILE_NAME> --server.port=<PORT_NUMBER>
+
+-----------------------------------------------------------------------------------------------------
